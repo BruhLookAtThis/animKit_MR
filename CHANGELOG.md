@@ -19,6 +19,14 @@ For ANIM
 - Added 'Reduced' Champion Icon support
 - Adjusted Option 1 and 2 to automatically create standard Champion Icon sprite sheet
   and Reduced Champion sprite sheet at the same time
+- Adjusted Options 1, 2, 3, and 4 to append some attributes to output folder/file names. For example:
+   "_Champ" (if the output files/folders are for Champ Icons)
+   "_Reduced" (if the output files/folders are for Reduced Champ Icons)
+   "_Spray" (if the output files/folders are for Reduced Champ Icons)
+   "_Bars" (if the output files/folders are Black Bar versions)
+   "_Stretch" (if the output files/folders are Stretched versions)
+
+- These attributes can stack too, i.e. "Aespa_Champ_Bars_Reduced"   
 - Created Option 101: This option allows splitting of vanilla sprite sheets into tiles
 - This supports:
   a. Animated Spray Sprite Sheets (4x4 tiles, 2048x2048px)
