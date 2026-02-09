@@ -1,0 +1,35 @@
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.0
+
+For General
+- Beta Release (Not posted on Github)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.1
+
+For General
+- Initial Github Release
+
+For ANIM
+- Cleaned up Main Menu
+- Adjusted Options 1, 2, 3, and 4 to make created tiles span across the duration of the video, if 
+  possible
+- Added 'Reduced' Champion Icon support
+- Adjusted Option 1 and 2 to automatically create standard Champion Icon sprite sheet
+  and Reduced Champion sprite sheet at the same time
+- Created Option 101: This option allows splitting of vanilla sprite sheets into tiles
+- This supports:
+  a. Animated Spray Sprite Sheets (4x4 tiles, 2048x2048px)
+  b. Regular Champion Icons Sprite Sheets (6x10 tiles, 3588x3980px)
+  b. Redeuced Champion Icons Sprite Sheets (5x8 tiles, 2000x2136px)
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+For ANIM
+
+NOTE: This is NOT heavily tested!  
