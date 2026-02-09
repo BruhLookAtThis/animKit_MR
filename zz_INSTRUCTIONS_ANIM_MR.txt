@@ -1,0 +1,100 @@
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+
+----------------------------------------------------------------
+CREATOR NOTES:
+----------------------------------------------------------------
+
+-Initial Github Release
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_ANIM_MR.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Folders will be created. 
+5. Ensure ffmpeg.exe is inside of 0_XTRA/0-TOOLS 
+6. Place your .mp4 video(s) into 1-PLACE-VIDEO-HERE
+7. Select Option 1 of the script to create your Champion Icon sprite sheet image using whatever aspect ratio your video is 
+   (final image may contain black bars on each tile)
+8. Or select Option 2 of the script to create your Champion Icon sprite sheet image with it's tiles stretched to fill out their alloted space
+
+   NOTE: Option 1 and Option 2 will create standard 6x10 sprite sheets as well as "reduced" 5x8 sprite sheets
+         Reduced sheets will be labeled "_Reduced"
+
+9. Select Option 3 of the script to create your sprite Animated Spray sheet image using whatever aspect ratio your video is 
+   (final image may contain black bars on each tile)
+10. Or select Option 2 of the script to create your Animated Spray sprite sheet image with it's tiles stretched to fill out their alloted space
+
+11. Make your mod files in Unreal Engine, just like any other texture mod.
+
+    Directory for animated Champion icons is:
+    Content\Marvel\UI\Textures\Mastery\####\
+    Content\Marvel_LQ\UI\Textures\Mastery\####\
+
+    Directory for Reduced animated Champion icons is:
+    Content\Marvel\UI\Textures\Mastery\Reduce\####
+    Content\Marvel_LQ\UI\Textures\Mastery\Reduce\####
+
+----------------------------------------------------------------
+EXTRAS:
+----------------------------------------------------------------
+
+12. Select Option 101 of the script to create tile images from vanilla Champion/Animated Spary sprite sheets
+13. Go to 'x100-XTRAs-Are-Here\x101-IMG-SPLIT-Stuff' and place your sprite sheet in its respective folder
+    Regular Champion Sprite Sheets go in 'A-Put-Champ-Sheets-To-SPLIT-Here'
+    Reduced Champion Sprite Sheets go in 'B-Put-REDUCED-Champ-Sheets-To-SPLIT-Here'
+    Animated Spray Sprite Sheets go in 'C-Put-Spray-Sheets-To-SPLIT-Here'
+14. In the script, after selecting Option 101, choose A, B, C to process the relevant Sprite Sheets
+15. Your Tiles will be output into subfolders (that are named after the source files) in the 'D-Your-New-SPLIT-Sheets-Are-Here' folder
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_ANIM_MR'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\animKit_MR_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\Folder2\Folder#\animKit_MR_v99\' is not good to go, because it has a space and a special character in the path folders
+3. Use this tool inside of a super long directory may cause issues, like skipped files during processing   
+
+----------------------------------------------------------------
+TROUBLESHOOTING: (Uhh ignore this, dont feel like editing this part of the copy-pasted instructions txt lol)
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy: https://discord.gg/marvelrivalsmodding
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    - Type 'powershell' in the File Explorer url and hit Enter
+    - A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_ANIM_MR.ps1
+
+    - You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about Execution Policy when running the .ps1 file
+    - Double click 'z2_DoubleClickMe_ANIM_MR.bat'
+     (If you dont see the .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    - A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+    - Make sure the path to your tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+
+3. If it's still not working, you probably...MESSED WITH THE AMAZING SPIDERMAN!!!! DON'T DO THAT!!!     
+
+
+MISCELLANEOUS INFO
+             
+             === Marvel Rivals Modding Discord ===
+             
+              https://discord.gg/marvelrivalsmodding
+             
+             =====================================
