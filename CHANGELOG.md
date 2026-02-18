@@ -41,6 +41,7 @@ For General
 - Changed 'D-Your-New-SPLIT-Sheets-Are-Here' to 'Z-Your-New-SPLIT-Sheets-Are-Here'
   
 For ANIM
+- Adjusted Main Menu
 - Adjusted Options 3 and 4 to create 'Item' (lower resolution) spritesheets alongside normal rez.
 - Normal rez versions will have "_Show" appended, and lower rez versions will have "_Item" appended
 - Added Info Options for each Option. Type an "i" and then the number of the Option, and press Enter
