@@ -32,7 +32,20 @@ For ANIM
   a. Animated Spray Sprite Sheets (4x4 tiles, 2048x2048px)
   b. Regular Champion Icons Sprite Sheets (6x10 tiles, 3588x3980px)
   b. Redeuced Champion Icons Sprite Sheets (5x8 tiles, 2000x2136px)
+  
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.2.0 (NOT RELEASED YET, 'BUG TESTING')
 
+For General
+- Changed 'D-Your-New-SPLIT-Sheets-Are-Here' to 'Z-Your-New-SPLIT-Sheets-Are-Here'
+  
+For ANIM
+- Adjusted Options 3 and 4 to create 'Item' (lower resolution) spritesheets alongside normal rez.
+- Normal rez versions will have "_Show" appended, and lower rez versions will have "_Item" appended
+- 
+
+NOTE: This is NOT heavily tested!
 -----------------------------------------------------
 -----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
