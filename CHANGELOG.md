@@ -51,6 +51,17 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 1.1.2
+
+For General
+
+For ANIM
+- Upgraded Option 101 to allow turning sprite sheets into gifs or mp4s
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE 1.2.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
