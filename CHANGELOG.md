@@ -62,6 +62,27 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 1.1.3
+
+For General
+
+For ANIM
+- In Option 1, 2, and 101, added support for 3800x4000 champion sprite sheets (Gambit has these dimensions, for example)
+  This new sheet will now be automatically created for Options 1 and 2
+  Dimensions for Champ sheets are now appended onto their output file names
+- Reworked Option 101 to only use a single input folder now.
+  Sprays, Full Champ, and Reduced Champ sheets will now all be placed into 'A-Put-Your-Sprite-Sheets-Here'
+- Renamed Option 101 output folder to 'B-Your-New-SPLIT-Sheets-Are-Here'
+- Added support for .webm to Option 101
+  NOTE: Webm supports transparency. Quality is BALANCED (Not perfect)
+- Improved .gif and .mp4 quality for Option 101
+  NOTE: GIF supports transparency. Quality is BALANCED (Not perfect)
+- Menus and some Info Options adjusted accordingly/cleaned up  
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE 1.2.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
