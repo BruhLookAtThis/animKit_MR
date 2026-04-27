@@ -65,6 +65,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 1.1.3
 
 For General
+- Added .bat and Instructions txt back
 
 For ANIM
 - In Option 1, 2, and 101, added support for 3800x4000 champion sprite sheets (Gambit has these dimensions, for example)
@@ -77,7 +78,9 @@ For ANIM
   NOTE: Webm supports transparency. Quality is BALANCED (Not perfect)
 - Improved .gif and .mp4 quality for Option 101
   NOTE: GIF supports transparency. Quality is BALANCED (Not perfect)
-- Menus and some Info Options adjusted accordingly/cleaned up  
+- Menus and some Info Options adjusted accordingly/cleaned up
+- Main Menu options no longer need double confirmation.
+  Processing will begin on the first press of "Enter" on a valid option.  
 
 NOTE: This is NOT heavily tested! 
 
