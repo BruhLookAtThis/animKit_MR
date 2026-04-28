@@ -92,6 +92,8 @@ For General
 
 For ANIM
 - Added Support for animated emojis
+- Changed Easy Config rubric to no longer require TileHeight and TileWidth input
+  These are now automatically calculated given the sprite sheet dimensions and row/column count
 
 NOTE: This is NOT heavily tested! 
 
