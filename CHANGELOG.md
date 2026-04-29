@@ -92,7 +92,13 @@ For General
 - Added Updater .bat file. Double clicking this will download the latest release .zip of SoundKit_MR
 
 For ANIM
-- Added Support for animated emojis (VERY EXPERIMENTAL)
+- Added Support for animated emojis with Option 3 on the main menu (VERY EXPERIMENTAL)
+- Updated Option 101 to work with Animated Emoji sprite sheets
+  Inside of the script are Easy Config presets for Emojis
+  However, some may be missing, as I didnt scan every single emoji sprite sheet
+  IF you try to use an unlisted size sprite sheet for Emojis, the script will let you enter the row and column count of the sheet
+  Once this information is input, the script will do its best to split the sheet (VERY EXPERIMENTAL)
+
 - Changed Easy Config rubric to no longer require TileHeight and TileWidth input
   These are now automatically calculated given the sprite sheet dimensions and row/column count
 - Simplified main menu options by moving 'stretched' and 'black bar'* options to a sub-menu
