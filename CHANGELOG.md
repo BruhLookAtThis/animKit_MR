@@ -110,6 +110,8 @@ For ANIM
   A-Put-Your-Sprite-Sheets-Here
   B-Your-New-SPLIT-Sheets-Are-Here
 
+- "Fixed"/Updated Info options. They are still rough though. Dont care atm teehee...
+
 NOTE: This is NOT heavily tested! 
 
 -----------------------------------------------------
