@@ -98,8 +98,8 @@ For ANIM
 - Simplified main menu options by moving 'stretched' and 'black bar'* options to a sub-menu
   Users will see this sub-menu after making their initial option selection on the main menu
 - *Replaced Black Bar option with Transparent Padding option.
-  This works the same in black bars, in that it keeps the original input files aspect ratio
-  The space thats leftover is now "filled" with transparent padding instead of solid black coloring.  
+  This works the same in black bars, in that it keeps the original input files aspect ratio.
+  The space thats leftover is now "filled" with transparent padding instead of solid black coloring
 
 NOTE: This is NOT heavily tested! 
 
