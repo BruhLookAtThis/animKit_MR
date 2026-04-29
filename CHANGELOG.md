@@ -89,6 +89,7 @@ NOTE: This is NOT heavily tested!
 UPDATE 1.2.0 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
+- Added Updater .bat file. Double clicking this will download the latest release .zip of SoundKit_MR
 
 For ANIM
 - Added Support for animated emojis
@@ -102,6 +103,7 @@ NOTE: This is NOT heavily tested!
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
+
 For ANIM
 
 NOTE: This is NOT heavily tested!  
