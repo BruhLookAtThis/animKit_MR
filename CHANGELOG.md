@@ -94,19 +94,19 @@ For General
 For ANIM
 - Added Support for animated emojis with Option 3 on the main menu (VERY EXPERIMENTAL)
 - Updated Option 101 to work with Animated Emoji sprite sheets
-  Inside of the script are Easy Config presets for Emojis (and the others)
-  Read the info to learn how to manually add listings here.
-  However, some may be missing, as I didnt scan every single emoji sprite sheet
-  IF you try to use an unlisted size sprite sheet for Emojis, the script will let you enter the row and column count of the sheet
-  Once this information is input, the script will do its best to split the sheet (VERY EXPERIMENTAL)
+  - Inside of the script are Easy Config presets for Emojis (and the others)
+  - Read the info to learn how to manually add listings here.
+  - However, some may be missing, as I didnt scan every single emoji sprite sheet
+  - IF you try to use an unlisted size sprite sheet for Emojis, the script will let you enter the row and column count of the sheet
+  - Once this information is input, the script will do its best to split the sheet (VERY EXPERIMENTAL)
 
 - Changed Easy Config rubric to no longer require TileHeight and TileWidth input
-  These are now automatically calculated given the sprite sheet dimensions and row/column count
+  - These are now automatically calculated given the sprite sheet dimensions and row/column count
 - Simplified main menu options by moving 'stretched' and 'black bar'* options to a sub-menu
-  Users will see this sub-menu after making their initial option selection on the main menu
+  - Users will see this sub-menu after making their initial option selection on the main menu
 - *Replaced Black Bar option with Transparent Padding option. (VERY EXPERIMENTAL)
-  This works the same in black bars, in that it keeps the original input files aspect ratio.
-  The space thats leftover is now "filled" with transparent padding instead of solid black coloring
+  - This works the same in black bars, in that it keeps the original input files aspect ratio.
+  - The space thats leftover is now "filled" with transparent padding instead of solid black coloring
 - Output files for each option are now organized into folders (VERY EXPERIMENTAL)
 - Added logs. Every executed Option now has its terminal logs output to a .txt file, placed in 0_XTRA/0-LOGS-ANIM
 - Added Option 199 that will clear all files and folders from the following folders:
