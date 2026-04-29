@@ -86,7 +86,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 1.2.0 (NOT RELEASED YET, 'BUG TESTING')
+UPDATE 1.1.4 (NOT RELEASED YET, 'BUG TESTING')
 
 For General
 - Added Updater .bat file. Double clicking this will download the latest release .zip of SoundKit_MR
@@ -95,6 +95,11 @@ For ANIM
 - Added Support for animated emojis
 - Changed Easy Config rubric to no longer require TileHeight and TileWidth input
   These are now automatically calculated given the sprite sheet dimensions and row/column count
+- Simplified main menu options by moving 'stretched' and 'black bar'* options to a sub-menu
+  Users will see this sub-menu after making their initial option selection on the main menu
+- *Replaced Black Bar option with Transparent Padding option.
+  This works the same in black bars, in that it keeps the original input files aspect ratio
+  The space thats leftover is now "filled" with transparent padding instead of solid black coloring.  
 
 NOTE: This is NOT heavily tested! 
 
