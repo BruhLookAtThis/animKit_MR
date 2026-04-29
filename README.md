@@ -14,28 +14,28 @@ OVERVIEW
    
    c. Converting sprite sheets into tiles
 
-CHAMPION SPRITE SHEET FMODEL LOCATIONS:
-Marvel/Content/Marvel/UI/Textures/Mastery/Common/CharaID#/FILE(S)
-Marvel/Content/Marvel/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Common/CharaID#/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)
+Champion Sprite Sheets can be found here:
+- Marvel/Content/Marvel/UI/Textures/Mastery/Common/CharaID#/FILE(S)
+- Marvel/Content/Marvel/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Common/CharaID#/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)
 
-SPRAY SPRITE SHEET FMODEL LOCATIONS:
-Marvel/Content/Marvel/UI/Textures/Item/Spray/FILES(S)
-Marvel/Content/Marvel/UI/Textures/Show/Spray/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Item/Spray/FILES(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Show/Spray/FILE(S)
+Sprays Sprite Sheets can be found here:
+- Marvel/Content/Marvel/UI/Textures/Item/Spray/FILES(S)
+- Marvel/Content/Marvel/UI/Textures/Show/Spray/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Item/Spray/FILES(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Show/Spray/FILE(S)
 
-EMOJI SPRITE SHEET FMODEL LOCATIONS:
-Marvel/Content/Marvel/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)
-Marvel/Content/Marvel/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)
-Marvel/Content/Marvel/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)
-Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)
+Emoji Sprite Sheets can be found here:
+- Marvel/Content/Marvel/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)
+- Marvel/Content/Marvel/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)
+- Marvel/Content/Marvel/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)
+- Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)
 
-EMOJI THUMBNAIL FMODEL LOCATION:
-Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/FILE(S)
+Emoji  Thumbnail can be found here:
+- Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/FILE(S)
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
 
