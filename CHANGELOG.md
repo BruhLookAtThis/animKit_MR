@@ -123,6 +123,17 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 1.2.0b (NOT RELEASED YET, 'BUG TESTING')
+
+For General
+
+For ANIM
+-Option 3 now automatically processes all three size categories instead of needing the user to select them one at a time
+
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
