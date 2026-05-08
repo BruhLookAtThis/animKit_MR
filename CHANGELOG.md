@@ -134,6 +134,20 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 1.2.1
+
+For General
+
+For ANIM
+-Option 1 now also supports .avi, .mkv, .mov, .webm, and .gif inputs
+-Option 101 now also supports .avi, .mkv, and .mov outputs
+-Added Sub-Option 999 to Option 101, this will output ALL available conversion formats, including the newly added ones
+-Added Option 199 to the main menu, wasnt visible for some reason lol
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
