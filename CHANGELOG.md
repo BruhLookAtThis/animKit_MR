@@ -144,11 +144,38 @@ For ANIM
   NOTE: .MOV, .GIF, and .WEBM support transparent output.
   NOTE 2: .MOV and .AVI cannot be played in default Windows Media Player because of their support* for transparency
   NOTE 3*: .AVI transparency "support" doesnt seem to actually work. And that, specifically, causes it not to play in Windows Media Player
-           So I will likely remove this "Support" and have .AVIs output to a Windows Media Player-compatible format
+                 So I will likely remove this "Support" and have .AVIs output to a Windows Media Player-compatible format
 - Added Sub-Option 999 to Option 101, this will output ALL available conversion formats, including the newly added ones
 - Added Option 199 to the main menu, wasnt visible for some reason lol
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! 
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 1.2.2
+
+For General
+
+For ANIM
+- Added Option 4, which lets you produce sprite sheets for the title screen logo
+  - HOW TO USE:
+    1. Place file(s) in the 1-PLACE-VIDEO-HERE\1-PUT-TITLE-START-FILE-HERE1-PUT-TITLE-LOOP-FILE-HERE
+       Files here will play ONE time at the beginning of the Title Logo animation
+    2. Place file(s) in the 1-PLACE-VIDEO-HERE\1-PUT-TITLE-START-FILE-HERE1-PUT-TITLE-LOOP-FILE-HERE folder
+       Files here will LOOP after the above file finishes playing
+    3. Choose Option 4
+    4. Pick a padding option, then press Enter
+    5. Output sprite sheets will have a FIXED name.
+    6. Take your output files and place them in 'Content\Marvel\UI\Textures\Login_V3\EN\' in Unreal Engine
+    7. Package or Cook like usual
+- Added a blank 'img_logo01.png' file in '0_XTRA\0-MISC\Title-Logo-MARVEL-Clear\'
+  - This will hide the red 'Marvel' logo thats above the big Title screen logo
+  - Place this in the same 'Content\Marvel\UI\Textures\Login_V3\EN\' directory if you want to use it
+
+NOTE: Rivals seems to have some kind of grey mask or something on the Title logo that makes custom replacements see-through
+      OR Im stupid and did something wrong lol If its a mistake on my end, then oops. But have fun until I get to the bottom of that  
+
+NOTE: This is NOT heavily tested! 
 
 -----------------------------------------------------
 -----------------------------------------------------
