@@ -179,6 +179,19 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
+UPDATE 1.2.2b
+
+For General
+
+For ANIM
+- Added Image support to Option 4
+  - Now you can use a still image to replace the title logo animation(s)
+- Reworked how Option 101 functions behind the scenes. No changes that you will notice (I hope lol)
+
+NOTE: This is NOT heavily tested!  
+
+-----------------------------------------------------
+-----------------------------------------------------
 UPDATE X.X.X (NOT RELEASED YET, 'BUG TESTING')
 
 For General
