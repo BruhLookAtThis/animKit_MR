@@ -187,7 +187,8 @@ For ANIM
 - Added Image support to Option 4
   - Now you can use a still image to replace the title logo animation(s)
 - Reworked how Option 101 functions behind the scenes. No changes that you will notice (I hope lol)
-(UNRELEASED) - Added Sub-Option 0 to Option 101 that allows configurable framerate for output files
+- Added Sub-Option 0 to Option 101 that allows configurable framerate for output files
+  I noticed the GIFs I created in Option 101 were looping way too fast. Now we can adjust that speed
 
 NOTE: This is NOT heavily tested!  
 
