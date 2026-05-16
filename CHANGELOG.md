@@ -179,7 +179,7 @@ NOTE: This is NOT heavily tested!
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 1.2.2b
+UPDATE 1.2.2b-c
 
 For General
 
@@ -187,6 +187,7 @@ For ANIM
 - Added Image support to Option 4
   - Now you can use a still image to replace the title logo animation(s)
 - Reworked how Option 101 functions behind the scenes. No changes that you will notice (I hope lol)
+(UNRELEASED) - Added Sub-Option 0 to Option 101 that allows configurable framerate for output files
 
 NOTE: This is NOT heavily tested!  
 
