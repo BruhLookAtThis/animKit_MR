@@ -72,17 +72,40 @@ USAGE INSTRUCTIONS
 
 9. Once you find what you need, double-click the file.
 10. In the window on the right, you should see the image itself as well as some metadata
-11. The metadata should have something like this at the top:
+11. The metadata should have something like this at the top (`X` and `Y` values may vary, of course):
 
-```"ImportedSize": {
+```
+"ImportedSize": {
         "X": 3588,
         "Y": 3980
 ```
 12. That is the size of sprite sheet you want for your mod, so find whichever sprite sheet file that you just made which matches that size.
-    - 12b. Once found, go back to FModel and right click the file. Go to `Copy` and `Package Name`
-    - 12c. Replace your custom sprite sheet's name with that name
-13.     
+    - 12b. Once found, go back to FModel, right click the file you wanted to replace, and choose `Save Texture`
+    - 12c. This will output the vanilla file to your `Outputs` folder for FModel. This step is simply to speed up a later process
+13. After that's done, you need to set up a project in Unreal Engine
+14. If you haven't downloaded and installed `Unreal Engine 5.3.2`, (wtf are you doing) [Install Epic Games Launcher](<https://www.unrealengine.com/download>), make an account, & then download `Unreal Engine 5.3.2` (MUST be this version, specifically)
+15. Once done, follow/adapt to [this guide starting from the 2:46 mark to 4:18](<https://youtu.be/Sk9Fa2rvYyY?t=166>)
 
+Defaultengine.ini file line of code:
+```
+[Core.System]
+CanUseUnversionedPropertySerialization=False
+```
+
+16. At 4:18, hover your mouse over the file(s) you just dragged in.
+   - 16b. You should see a `Dimensions` listing. This, obviously, let's you know which of the custom sprite sheets files you should be using (Remember, some options from animKit force multiple output sizes to cover many scenarios)
+   - 16c. If the `Dimensions` is, say, `3588x3980`, then you need to use the Champion sprite sheet that had `(3588x3980)` in it's name
+17. Now, in Unreal Engine, right click that image you were hovering over, and select `Reimport with New File`
+18. Select your matching-size custom sprite sheet, and it should replace that vanilla image with your new one
+    -18b. Remember, most of these mods require you to replace multiple files for a complete replacement
+    - 18c. Champ Icons have a `Common` file and a `Reduced` file
+    - 18d. Animated Sprays have a `Item` file and a `Show` file
+    - 18e. Emojis have `80`, `328`, and `1024` files AND a `Thumbnail` file if you also want to replace that (you SHOULD want to btw)
+    - 18f. Titles have a `Start` and `Loop` file
+    - 18g. So make sure you are setting replacements for each aspect that you need to in this Unreal Engine project
+19. Now continue watching [this video from 4:18 to the end](<https://youtu.be/Sk9Fa2rvYyY?t=256>)
+   - 19b. [Repak X Download](<https://github.com/XzantGaming/Repak-X/releases>)
+20. Aaaand boom. Everything should work fine and dandy, ALTHOUGH positioning for Champion Icons can be tricky to get right, so it may need trial and error (unless somebody in the modding server has a template, but I believe each character's Champion Icon has a slightly different positioning, so what works for one character may not work for another). You will need to adjust your input video/gif accordingly, so get ready for trial and error lol 
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
 
