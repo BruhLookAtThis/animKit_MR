@@ -37,22 +37,26 @@ USAGE INSTRUCTIONS
    - 7f. The folder will be named `YOURFILENAME_Spray_Pad`, which contains a `YOURFILENAME_Spray_Pad_Item.png` file (`Item` images are a spray's thumbnail) and a `YOURFILENAME_Spray_Pad_Show.png` file (`Show` images are what show when you actually spray the image onto the ground ingame)
    - 7g. If you chose to make an Animated Emoji sprite sheet, you will have three output folders
    - 7h. These folders will be named `YOURFILENAME_Emoji_Pad_80`, `YOURFILENAME_Emoji_Pad_328`, & `YOURFILENAME_Emoji_Pad_1024`, and will contain a multitude of image sizes (again, thats just me forcing the script to account for "every" sizing scenario. You likely only need one size image from here)
-8. Next you need to select which image(s) you need from your output + figure out what to name your files, as these new sprite sheets have to be the same name as the vanilla files. 
-   - 8b. To see what's required for your mod, open FModel and look for your character's vanilla sprite sheet(s). Locations are listed below:
+8. Next, you need to select which of your newly-made sprite sheets you need for your mod + figure out what to name your files, as these new sprite sheets have to be the same name as the vanilla files. 
+   - 8b. To see what's required for your mod, open FModel and look for your character's vanilla sprite sheet(s). Locations are listed below
+   - 8c. If you don't have FModel set up, (wtf are you doing) [Watch this video from 3:40 to 9:00](<https://youtu.be/f-tX83RTZpc?t=221>). Ignore that it's for sound modding & any instructions directly related to  `soundKit`, ALL aspects of Rivals modding pretty much requires FModel setup, so we are just there to borrow the relevant steps
+   - 8d. (You can put your `Output` folder where ever.)
+   - 8e. The .usmap file can be grabbed [here](<https://spacedepot.github.io/SpaceHost/>)
+   - 8f. AES key: 0x0C263D8C22DCB085894899C3A3796383E9BF9DE0CBFB08C9BF2DEF2E84F29D74
 
-## Champion Sprite Sheets can be found here (Size may vary by character so pay attention):
+### Champion Sprite Sheets can be found here (Size may vary by character so pay attention):
 - `Marvel/Content/Marvel/UI/Textures/Mastery/Common/CharaID#/FILE(S)`
 - `Marvel/Content/Marvel/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)`
 - `Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Common/CharaID#/FILE(S)`
 - `Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)`
 
-## Sprays Sprite Sheets can be found here (These are pretty much always the same size):
+### Sprays Sprite Sheets can be found here (These are pretty much always the same size):
 - `Marvel/Content/Marvel/UI/Textures/Item/Spray/FILES(S)`
 - `Marvel/Content/Marvel/UI/Textures/Show/Spray/FILE(S)`
 - `Marvel/Content/Marvel_LQ/UI/Textures/Item/Spray/FILES(S)`
 - `Marvel/Content/Marvel_LQ/UI/Textures/Show/Spray/FILE(S)`
 
-## Emoji Sprite Sheets can be found here (Size may vary by character so pay attention):
+### Emoji Sprite Sheets can be found here (Size may vary by character so pay attention):
 - `Marvel/Content/Marvel/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)`
 - `Marvel/Content/Marvel/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)`
 - `Marvel/Content/Marvel/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)`
@@ -60,14 +64,24 @@ USAGE INSTRUCTIONS
 - `Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/VX/FILE(S)`
 - `Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/1024x1024/VX/FILE(S)`
 
-## Emoji Thumbnail can be found here:
+### Emoji Thumbnail can be found here:
 - `Marvel/Content/Marvel_LQ/UI/Textures/Chat/Bubble/328x328/FILE(S)`
 
-## Title Logo can be found here (You don't actually need to check anything here, the sprite sheets are already named and sized correctly):
+### Title Logo can be found here (You don't actually need to check anything here, the sprite sheets are already named and sized correctly):
 - `Marvel/Content/Marvel/UI/Textures/Login_V3/EN/FILE(S)`
 
+9. Once you find what you need, double-click the file.
+10. In the window on the right, you should see the image itself as well as some metadata
+11. The metadata should have something like this at the top:
 
-9. Once you find what you need, left click the file one time so it's highlighted, then right click it
+```"ImportedSize": {
+        "X": 3588,
+        "Y": 3980
+```
+12. That is the size of sprite sheet you want for your mod, so find whichever sprite sheet file that you just made which matches that size.
+    - 12b. Once found, go back to FModel and right click the file. Go to `Copy` and `Package Name`
+    - 12c. Replace your custom sprite sheet's name with that name
+13.     
 
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
