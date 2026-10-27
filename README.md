@@ -51,10 +51,8 @@ USAGE INSTRUCTIONS
 - `Marvel/Content/Marvel_LQ/UI/Textures/Mastery/Reduce/CharaID#/FILE(S)`
 
 ### Sprays Sprite Sheets can be found here (These are pretty much always the same size):
-- `Marvel/Content/Marvel/UI/Textures/Item/Spray/FILES(S)`
-- `Marvel/Content/Marvel/UI/Textures/Show/Spray/FILE(S)`
-- `Marvel/Content/Marvel_LQ/UI/Textures/Item/Spray/FILES(S)`
-- `Marvel/Content/Marvel_LQ/UI/Textures/Show/Spray/FILE(S)`
+- `Marvel/Content/Marvel/UI/Textures/Item/Spray/FILES_FOR_UI_MENU`
+- `Marvel/Content/Marvel/UI/Textures/Show/Spray/FILES_YOU_SPRAY_INGAME`
 
 ### Emoji Sprite Sheets can be found here (Size may vary by character so pay attention):
 - `Marvel/Content/Marvel/UI/Textures/Chat/Bubble/80x80/VX/FILE(S)`
